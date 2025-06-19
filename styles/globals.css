@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=WDXL+Lubrifont+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=WDXL+Lubrifont+TC&display=swap');
+/* ===== Reset some browser defaults ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Set base font and background ===== */
+body {
+  font-family:  "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Headings ===== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* ===== Buttons ===== */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* ===== Utility Classes ===== */
+.text-center {
+  text-align: center;
+}
+
+form {
+  font-family: "Montserrat", sans-serif;
+
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+
+/* ===== Images ===== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.navbar {
+  color :  "#FFFFF"
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-bottom: 0.5rem;
+  background: #101018 !important;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+
+#home-engine {
+  background: url(/assets/banner/plane-banner.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  /* Optional: full width */
+  padding: 18%;
+  position: absolute;
+  overflow: hidden;
+}
+
+
+
+
+#home-engine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* Adjust opacity for brightness */
+  z-index: 1;
+}
+
+/* Optional content container over the overlay */
+.home-engine-content {
+  z-index: 1051;
+  position: relative;
+  padding-top: 8%;
+  width: 100%;
+}
+
+
+
+
+.home-engine-content form {
+  z-index: 1051;
+  position: relative;
+  padding-top: 10%;
+  background: #26272B;
+  padding: 50px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+
+.home-section-one {
+
+  justify-content: space-around;
+}
+
+.submit-btn button {
+  background: #F03C07;
+  width: 100%;
+  margin-top: 31px;
+  border: none
+}
+
+/* SECTION TWO */
+
+
+#home-section-two {
+  margin-top: 12%
+}
+
+.card {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.card-body button {
+  width: 100%;
+  border-radius: 2px
+}
+
+.card-body {
+  padding: 0px
+}
+
+
+.btn-see-more {
+  border: 1px solid;
+  padding: 10px;
+}
+
+
+.home-section-three {
+
+  background: #f9f9f9;
+}
+
+
+
+
+.features .card {
+  height: 100%;
+  transition: box-shadow 0.3s ease-in;
+  cursor: pointer;
+
+}
+
+.features .card a {
+  text-decoration: none;
+
+}
+
+
+.features .card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* SECTION TWO */
+
+/* Extra small devices (phones, <576px) */
+
+
+
+.logo-img {
+  max-width: 100%;
+  width: 220px;
+  height: auto;
+}
+.call-now-banner {
+  display: flex;
+  align-items: center;
+  background: #1e2c4c;
+  border-radius: 8px;
+  overflow: hidden;
+  color: white;
+  font-family: sans-serif;
+  width: fit-content;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.call-icon {
+  background: #f03c07;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.call-text {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px;
+}
+
+.call-now {
+  background: #ffc107;
+  color: black;
+  padding: 2px 8px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 4px;
+  align-self: start;
+  margin-bottom: 4px;
+}
+
+.phone-number {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+.menu-link {
+
+  font-weight: 600 !important;
+}
+
+
+
+
+
+.breadcrumb-wrapper {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.breadcrumb-overlay {
+  background-color: rgba(0, 0, 0, 0.4); /* Optional overlay */
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.breadcrumb-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.breadcrumb-path a {
+  color: #ffc107;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.breadcrumb-path {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+.testimonial-slider {
+ background: 
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url(https://cdn.pixabay.com/photo/2019/09/30/18/11/flight-4516478_1280.jpg) no-repeat center/cover,
+    #594545;
+  padding: 2em 2em 3em;
+}
+.testimonial-title {
+  color: #fff;
+}
+.testimonial-title h2 {
+  padding-left: 0.2em;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  height: 100%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #fff;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  top: 60%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    margin-right: 0;
+    flex: 0 0 50%;
+    display: block;
+  }
+  .carousel-inner {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 1;
+    position: absolute;
+    left: 1em;
+    top: 90%;
+    transform: translateY(-50%);
+  }
+  .carousel-control-next {
+    left: 5em;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  #home-engine {
+    background: url(/assets/banner/plane-banner.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    /* Optional: full width */
+    /* padding: 100%; */
+    position: absolute;
+    overflow: hidden;
+  }
+  .btn-see-more {
+  border: 1px solid;
+  padding: 5px;
+  font-size: 13px;
+}
+
+  .home-engine-content h1 {
+    display: none;
+
+  }
+
+  .home-engine-content form {
+    z-index: 1051;
+    position: relative;
+    background: #26272B;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .submit-btn button {
+    background: #F03C07;
+    width: 100%;
+    margin-top: 10px;
+    border: none
+  }
+
+}
+
+/* Small devices (phones, <768px) */
+@media (max-width: 767.98px) {
+  .home-engine-content form {
+    z-index: 1051;
+    position: relative;
+    background: #26272B;
+    border-radius: 10px;
+    width: 100%;
+  }
+
+}
+
+/* Medium devices (tablets, <992px) */
+@media (max-width: 991.98px) {
+  /* Tablet styles */
+}
+
+.promo-card {
+  height: 100%;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.promo-card .promo-img {
+  object-fit: cover;
+  height: 100%;
+  min-height: 400px;
+  filter: brightness(75%);
+  transition: transform 0.3s ease;
+}
+
+.promo-card:hover .promo-img {
+  transform: scale(1.05);
+}
+
+
+
