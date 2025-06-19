@@ -7,34 +7,34 @@ import { FaQuoteLeft, FaStar } from "react-icons/fa";
 
 const testimonials = [
   {
-    title: "Card title 1",
+    title: "Emma L., Los Angeles",
     image: "https://codingyaar.com/wp-content/uploads/headshot-1-scaled.jpg",
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "Booking my international flight was so easy and affordable. I saved over 20% compared to other sites, and the entire process took just minutes!",
   },
   {
-    title: "Card title 2",
+    title: "Raj P., Chicago",
     image: "https://codingyaar.com/wp-content/uploads/headshot-2-scaled.jpg",
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "I had a last-minute change to my itinerary, and the support team handled everything quickly and professionally. I’ll definitely book through them again.",
   },
   {
-    title: "Card title 3",
+    title: "Isabella M., Miami",
     image: "https://codingyaar.com/wp-content/uploads/headshot-3-scaled.jpg",
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "I was surprised by how smooth the entire experience was. The deals were real, and I got instant confirmation. Highly recommended!",
   },
   {
-    title: "Card title 4",
+    title: "Liam T., New York",
     image: "https://codingyaar.com/wp-content/uploads/headshot-4-scaled.jpg",
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "The interface is user-friendly, and they showed real-time flight prices with no hidden charges. Loved the transparency.",
   },
   {
-    title: "Card title 5",
+    title: "Sophia R., Houston",
     image: "https://codingyaar.com/wp-content/uploads/headshot-5-scaled.jpg",
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "I booked a round-trip to Europe and received email updates and reminders at every step. The convenience and communication were top-notch.",
   },
   {
-    title: "Card title 6",
+    title: "Daniel K., Seattle",
     image: "https://codingyaar.com/wp-content/uploads/headshot-6-scaled.jpg",
-    text: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    text: "FlightReservationsWeb made it incredibly simple to compare multiple airlines and find the best fare. Plus, I got great discounts using my credit card.",
   },
 ];
 
