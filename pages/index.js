@@ -78,8 +78,9 @@ const Home = () => {
               <Row>
                 <Col md={6}>
                   <div className="text-white text-center mt-5">
-                    <h1>Save Big on Every Flight Booking</h1>
-                    <h2>Compare routes and find the best flights fares for your next vacation.</h2>
+                    <h1>Tailored Flight Deals For You!
+</h1>
+                    <h2>Compare fares easily to find the discounted fare for your next flight.</h2>
 
                   </div>
                 </Col>
@@ -103,8 +104,9 @@ const Home = () => {
           <Container>
             <h2 className="text-center">About Us</h2>
 
-            <p>At FlightReservationsWeb, we strongly believe that flying should be a delight. That’s why we’ve crafted a platform that removes all the hassle from booking flights—offering you real‑time schedules, the best fares, and dedicated customer support. From choosing your perfect itinerary to landing smoothly at your destination, we’re here to guide you every step of the way.</p>
-            <p>If you’re ready to plan and book your next flight with ease, look no further. Contact our aviation experts today to share your preferences and reserve your next set of tickets—effortlessly and reliably.</p>
+            <p>FlightsReservationsWeb is a one-stop platform that helps users book flights at discounted fares to multiple destinations around the world. Whether you want to explore your all-time favorite or want to go to a new destination from your bucket list, we will help you get there within your budget. Just share your details, and we will book the best flight for you.</p>
+            <p>We also offer unlimited flight deals so you can plan a trip that suits your budget. Get in touch with us to find the latest travel offers, and take off to your destination without hurting your pocket. So why the wait? Call us now to book the best trip of your life.
+</p>
           </Container>
         </section>
 
@@ -134,8 +136,9 @@ const Home = () => {
         <section style={{ marginTop: "100px", marginBottom: "100px", background: "#eee", padding: "5%" }}>
           <Container>
             <h2 className="text-center">Disclaimer</h2>
-            <p>FlightReservationsWeb is an independent third-party website that is not affiliated with any airline company or aviation board. We merely act as a facilitator, bringing airline partners and travelers together. Though we try to maintain all data accurate and current, we cannot assure seat availability and fare rates at all times. All tickets purchased through this website are securely processed through trusted payment gateways.</p>
-              <p>Ticket bookings made through this site are subject to the terms and conditions set by both our platform and the respective airlines. We do not control operational aspects such as flight delays, cancellations, or in‑flight services. By using FlightReservationsWeb, you acknowledge and agree that any travel‑related issues must be resolved directly with the airline provider. However, our customer service team is available to assist you with any questions regarding your booking experience.</p>
+            <p>FlightReservationsWeb is an independent third-party website that has no direct affiliation with any airline. We merely act as a mediator between airlines and travelers. Bookings made with us are subject to Terms and Conditions of both airlines and www.flightsreservationsweb.com. By using our site, you agree to follow all the mentioned Terms.</p>
+              
+              <p>Please note that we do not control operational aspects such as flight delays, cancellations, or in‑flight services. For flight delays, cancellations, or refunds, you must directly contact the service provider. However, we are available to assist you all the time.</p>
             </Container>
         </section>
       </Screen>
@@ -146,3 +149,4 @@ const Home = () => {
 
 export default Home;
 
+  

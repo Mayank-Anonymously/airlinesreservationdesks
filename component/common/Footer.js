@@ -30,7 +30,7 @@ const Footer = () => {
               </h6>
               <p>
                
-FlighstReservationsWeb is your one-stop platform to compare train rides and book the lowest fare for you. Contact us today to book the best fare for you.
+At FlightsReservationsWeb, we are dedicated to providing you with the best flight fares. Contact us to find limited-time deals, and save a big amount on your next flight. Book now!
 
               </p>
             

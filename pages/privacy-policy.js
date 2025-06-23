@@ -8,72 +8,93 @@ import { Container } from 'react-bootstrap'
 
 
 
-const html  = `<p><strong>Privacy Policy - FlighstReservationsWeb</strong></p>
+const html  = `<p>&nbsp;</p>
+<p><span style="font-weight: 400;">At FlightsReservationsWeb, we focus on protecting the information of our users. In this Privacy Policy, we will discuss how we collect and use data from users. If you are using our site, you should agree to the Terms mentioned below.</span></p>
+<h3><span style="font-weight: 400;">Personal Information We Collect</span></h3>
+<p><span style="font-weight: 400;">At www.flightsreservationsweb.com, we collect some personal information from users that we promise to keep safe and secure. Your data will be saved on SSL for security purposes.</span></p>
+<h4><span style="font-weight: 400;">Personal Information</span></h4>
+<p><span style="font-weight: 400;">When you visit FlightsReservationsWeb, we may collect some personal information from you that include:</span></p>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;">FlighstReservationsWeb (&ldquo;FlighstReservationsWeb,&rdquo; &ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) values your privacy. In this Privacy Policy, we will discuss how we collect and use your personal details when you visit www.FlightsReservationsWeb.com. We will also share how we take measures to protect your personal information when interacting with our site.</span></p>
-<p><span style="font-weight: 400;">By accessing or using our Services, you agree to the terms of this Privacy Policy.</span></p>
-<h3><span style="font-weight: 400;">1. Information We Collect</span></h3>
-<p><span style="font-weight: 400;">We may collect the following types of information when you interact with our Services:</span></p>
-<h4><span style="font-weight: 400;">a. Personal Information</span></h4>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">User&rsquo;s Name</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">His/ Her Email address</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Customer&rsquo;s Phone number</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Payment information (processed securely via third-party processors)</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Travel preferences and booking details</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Name (traveler&rsquo;s name)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Phone Number</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Email Address</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Passport Number</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Credit Card Information</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Billing Address</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Itinerary Details</span></li>
 </ul>
-<h4><span style="font-weight: 400;">b. Non-Personal Information</span></h4>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">We may collect some additional details as well, which include:</span></p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">IP address</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Browser type and device information</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Location data (approximate, based on IP)</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Cookies and usage data (pages visited, links clicked, etc.)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">IP Address</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Cookie Identifiers</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Operating System</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Search History</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">URL and Browser</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Access Time</span></li>
 </ul>
-<h3><span style="font-weight: 400;">2. How We Use Your Information</span></h3>
-<p><span style="font-weight: 400;">We use the information we collect for purposes such as:</span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">You must ensure to provide the updated, accurate, and complete information for the smooth booking process.</span></p>
+<h3><span style="font-weight: 400;">Collecting Your Information</span></h3>
+<p><span style="font-weight: 400;">FlightsReservationsWeb collects your information in different ways, including-</span></p>
+<p>&nbsp;</p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Processing your ticket bookings and payments</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Providing customer support</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Sending booking confirmations, updates, or service-related notices</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Improving website performance and user experience</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Preventing fraud and ensuring security</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Complying with legal obligations</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Over the phone (Our travel agent or help desk)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Emails and other sources</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In person</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Through forms</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Through the internet (websites and social media)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Via third-party cookies</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Through subscription and entry forms</span></li>
 </ul>
-<h3><span style="font-weight: 400;">3. Sharing Your Information</span></h3>
-<p><span style="font-weight: 400;">We do </span><strong>not sell</strong><span style="font-weight: 400;"> your personal information. We may share your data with:</span></p>
+<h3><span style="font-weight: 400;">Using Your Information</span></h3>
+<p><span style="font-weight: 400;">FlightsReservationsWeb uses the information to:</span></p>
 <ul>
-<li style="font-weight: 400;"><strong>Train operators and travel partners</strong><span style="font-weight: 400;"> to fulfill your bookings</span></li>
-<li style="font-weight: 400;"><strong>Service providers</strong><span style="font-weight: 400;"> (e.g., payment processors, analytics services) who assist us in operating our business</span></li>
-<li style="font-weight: 400;"><strong>Legal authorities,</strong><span style="font-weight: 400;"> when it is needed to comply with the law or protect our rights</span></li>
-<li style="font-weight: 400;"><strong>In the event of a business transfer</strong><span style="font-weight: 400;">, such as a merger or acquisition</span><span style="font-weight: 400;"><br /><br /></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Process and manage flight bookings</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Communicate with the user about their booking</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Improve the user experience</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Enhance the website functionality&nbsp;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Send promotional or marketing communications (with your consent)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Give customer support</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Prevent fraud and maintain site security</span></li>
 </ul>
-<p><span style="font-weight: 400;">All third-party partners are required to handle your data in compliance with applicable privacy laws.</span></p>
-<h3><span style="font-weight: 400;">4. Cookies and Tracking Technologies</span></h3>
-<p><span style="font-weight: 400;">FlighstReservationsWeb uses cookies and similar technologies to:</span></p>
+<h3><span style="font-weight: 400;">Sharing Your Information</span></h3>
+<p><span style="font-weight: 400;">FlightsReservationsWeb may share your information with:</span></p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Remember your preferences</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Analyze website traffic and trends</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Improve site functionality and content</span><span style="font-weight: 400;"><br /><br /></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Third-party service providers to fulfill your bookings</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Analytics and marketing platforms to enhance &amp; improve our services</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Legal and regulatory authorities, if it is required by law</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Business partners for joint promotions or offers</span></li>
 </ul>
-<p><span style="font-weight: 400;">To control cookie preferences, visit your browser settings. Disabling cookies as per your preferences, however, it may impact your user experience.</span></p>
-<h3><span style="font-weight: 400;">5. Data Security</span></h3>
-<p><span style="font-weight: 400;">FlighstReservationsWeb takes strong and reasonable technical, administrative, and physical measures to protect your information from unauthorized access, use, or disclosure. However, there is no method on the internet that is 100% secure.</span></p>
-<h3><span style="font-weight: 400;">6. Your Privacy Rights</span></h3>
-<p><span style="font-weight: 400;">Depending on your location, you may have rights under applicable data privacy laws, including:</span></p>
+<h3><span style="font-weight: 400;">Cookies and Tracking Technologies</span></h3>
+<p><span style="font-weight: 400;">www.flightsresewrvationsweb.com use cookies and similar technologies when users visits FlightsReservationsWeb. We do this to improve the overall experience of users. Cookies are small files that we place on the visitor&rsquo;s device to get information about their preferences. We use these cookies to-</span></p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Access to the personal information we gathered from you</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Requesting correction or deletion of your data</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Opting out of marketing communications</span><span style="font-weight: 400;"><br /><br /></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Maintain session information</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Provide personalize content to users</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Track usage statistics (e.g., via Google Analytics)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Improve site performance&nbsp;</span></li>
 </ul>
-<p><span style="font-weight: 400;">To exercise your rights, contact us at support@flightsreservationsweb.com.</span></p>
-<h3><span style="font-weight: 400;">7. Third-Party Links</span></h3>
-<p><span style="font-weight: 400;">Our website may contain links to third-party websites (such as rail operators or travel partners). We are not responsible for the privacy practices or content of those sites. We encourage you to review their privacy policies.</span></p>
-<h3><span style="font-weight: 400;">8. Changes to This Policy</span></h3>
-<p><span style="font-weight: 400;">FlighstReservationsWeb reserves the right to update this Privacy Policy from time to time. The modified policy will be posted on this page, and it will be effective immediately. We highly encourage you to check out the Privacy Policy from time to time.</span></p>
-<h3><span style="font-weight: 400;">9. Contact Us</span></h3>
-<p><span style="font-weight: 400;">If you have any questions or concerns about this Privacy Policy, please contact us at:</span></p>
-<p><strong>FlighstReservationsWeb</strong><strong><br /></strong><span style="font-weight: 400;"> Email: support@flightsreservationsweb.com</span></p>
-<p><br /><br /></p>`
+<p><span style="font-weight: 400;">You can manage cookie preferences in your browser settings.</span></p>
+<h3><span style="font-weight: 400;">Children below 18 Years</span></h3>
+<p><span style="font-weight: 400;">Children who are below the age of 18 are not authorized to use FlightsReservationsWeb services. All flight bookings of these children must be made and handled by their parents or guardians.</span></p>
+<h3><span style="font-weight: 400;">Data Security</span></h3>
+<p><span style="font-weight: 400;">FlightsReservationsWeb implement appropriate technical and organizational measures to protect your personal information. We strive to protect your data from unauthorized access, but no system is 100% secure. We can&rsquo;t guarantee complete security.</span></p>
+<h3><span style="font-weight: 400;">Your Rights</span></h3>
+<p><span style="font-weight: 400;">Depending on your jurisdiction, you may have rights to:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Access the data we hold about you</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Correct inaccurate information</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Request deletion of your data</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Object to certain data uses</span></li>
+</ul>
+<p><span style="font-weight: 400;">To exercise your rights, contact us at: support@flightsreservationsweb.com.</span></p>
+<h3><span style="font-weight: 400;">Third-Party Links</span></h3>
+<p><span style="font-weight: 400;">www.flightsreservationsweb.com may contain links to third-party websites, but we shall not be held responsible for the privacy practices or content of those sites. We advise you to read their privacy policies.</span></p>
+<h3><span style="font-weight: 400;">Changes to This Policy</span></h3>
+<p><span style="font-weight: 400;">FlightsReservationsWeb reserves the right to modify the Privacy Policy without any notice. The updated Privacy Policy will be posted on this page. Keep checking this page for the revised policy.</span></p>
+<h3><span style="font-weight: 400;">Contact Us</span></h3>
+<p><span style="font-weight: 400;">Get in touch with us at support@flightsreservationsweb.com for any concerns regarding this privacy policy.</span></p>`
 
 
 

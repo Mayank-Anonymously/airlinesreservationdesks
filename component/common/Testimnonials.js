@@ -9,32 +9,32 @@ const testimonials = [
   {
     title: "Emma L., Los Angeles",
     image: "https://codingyaar.com/wp-content/uploads/headshot-1-scaled.jpg",
-    text: "Booking my international flight was so easy and affordable. I saved over 20% compared to other sites, and the entire process took just minutes!",
+    text: "I booked a flight with FlightsReservationsWeb, and I am happy with the overall experience. The support team helped me with the booking process and made everything simple. I highly recommend this site!",
   },
   {
     title: "Raj P., Chicago",
     image: "https://codingyaar.com/wp-content/uploads/headshot-2-scaled.jpg",
-    text: "I had a last-minute change to my itinerary, and the support team handled everything quickly and professionally. I’ll definitely book through them again.",
+    text: "FlightsReservationsWeb is one of the best travel websites, as it helped me save 10% on my flight booking. One of their agents gave me a discount code that made my entire journey budget-friendly.",
   },
   {
     title: "Isabella M., Miami",
     image: "https://codingyaar.com/wp-content/uploads/headshot-3-scaled.jpg",
-    text: "I was surprised by how smooth the entire experience was. The deals were real, and I got instant confirmation. Highly recommended!",
+    text: "This was my second time using FlightsReservationsWeb, and both times the experience has been seamless. Flights booked, confirmed, and no surprises. That’s all I ask for! Highly appreciated!",
   },
   {
     title: "Liam T., New York",
     image: "https://codingyaar.com/wp-content/uploads/headshot-4-scaled.jpg",
-    text: "The interface is user-friendly, and they showed real-time flight prices with no hidden charges. Loved the transparency.",
+    text: "Booked a domestic flight last minute and was worried about getting overcharged, but FlightsReservationsWeb had transparent pricing and no surprise fees at checkout. Booking was straightforward and reliable.",
   },
   {
     title: "Sophia R., Houston",
     image: "https://codingyaar.com/wp-content/uploads/headshot-5-scaled.jpg",
-    text: "I booked a round-trip to Europe and received email updates and reminders at every step. The convenience and communication were top-notch.",
+    text: "I booked a flight with FlightsReservationsWeb and had to make a name correction on my ticket after booking. I contacted the support team, and they sorted it within 24 hours. Very polite and efficient team members. ",
   },
   {
     title: "Daniel K., Seattle",
     image: "https://codingyaar.com/wp-content/uploads/headshot-6-scaled.jpg",
-    text: "FlightReservationsWeb made it incredibly simple to compare multiple airlines and find the best fare. Plus, I got great discounts using my credit card.",
+    text: "Honestly, I was skeptical at first, but FlightsReservationsWeb found a fare that was significantly cheaper than on the airline's site. I am really thankful for the discount they gave me. I will definitely use it again!",
   },
 ];
 

@@ -5,17 +5,17 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap'
 
 const promoData = [
   {
-    title: "Save up to 35% on flight bookings",
+    title: "Crafted itineraries as per your preferences",
     image: "/assets/clipart/offer.png",
     buttonText: "Learn more",
   },
   {
-    title: "On International Flight Bookings with Any Card",
+    title: "Unlimited flight deals on various flights",
     image: "/assets/clipart/flight-booking.jpg",
     buttonText: "Learn more",
   },
   {
-    title: "Quick Checkin",
+    title: "on-stop assistance from travel experts",
     image: "/assets/clipart/checkin.png",
     buttonText: "Learn more",
   },
