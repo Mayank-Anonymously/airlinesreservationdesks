@@ -354,6 +354,9 @@ footer a {
   .carousel-inner {
     padding: 1em;
   }
+  .slick-slider slick-initialized {
+    width : 132%
+  }
   .carousel-control-prev,
   .carousel-control-next {
     opacity: 1;

@@ -68,7 +68,7 @@ const TestimonialCarousel = () => {
 
   return (
     <div className="testimonial-slider py-5">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-4 mb-4">
             <div className="testimonial-title text-center text-md-start">

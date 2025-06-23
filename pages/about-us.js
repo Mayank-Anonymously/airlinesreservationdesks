@@ -5,11 +5,10 @@ import Features from '@/component/Screens/Home/Features'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-
 const index = () => {
     return (
         <Screen>
-            <Seo title="About Us | FlightsReservationsWeb"/>
+            <Seo title="About Us | FlightsReservationsWeb" />
 
             <Breadcrumb
                 main="Home"
@@ -18,94 +17,61 @@ const index = () => {
                 background="/assets/passenger/passenger-two.jpg"
             />
 
-
-
-
-            <section >
+            <section>
                 <Container>
                     <div className='m-5'>
-                        <h2>
-                            Welcome to FlighstReservationsWeb -Your Trusted Booking Partner!
-
-                        </h2>
+                        <h2>Welcome to FlightsReservationsWeb – Your Independent Flight Booking Partner</h2>
                         <p>
-                            At FlighstReservationsWeb, we strongly believe that train travel should be enjoyable. That's why we've built a platform that takes the stress out of ticket booking, giving you access to real-time schedules, competitive prices, and reliable customer assistance. From planning your journey to arriving at your destination, we are here to help at every step of your journey.
+                            At FlightsReservationsWeb, we believe in giving travelers the freedom to explore the world on their own terms. Our only motive is to simplify the flight search, compare ticket prices, and help you find the best deals. We are your one-stop platform to book flight tickets to your favorite destination within your budget.
                         </p>
                         <p>
-                            If you are looking for the right platform that can help you with planning a train journey, then look no further. Get in touch with our experts as soon as possible to share your priorities and book your next train without any additional effort.
-
+                            We're not tied to any specific carrier. That means our only priority is you — your preferences, your budget, and your journey. We make it easy to browse, compare, and book the right flight for you.
                         </p>
                     </div>
 
                     <div className='m-5'>
-                        <h2>What we do</h2>
+                        <h2>What We Do</h2>
                         <p>
-                            We connect travelers with rail services, offering a wide selection of routes and operators, all in one place. With our platform, you can:
-
-
+                            We scan hundreds of airlines to bring you the most competitive fares, route options, and schedules. Our platform empowers travelers to:
                         </p>
                         <ul>
-                            <li>
-                                Compare train times and fares instantly
-
-                            </li>
-                            <li>
-                                Book securely with flexible payment options
-                            </li>
-                            <li>Access your tickets digitally, no paper required
-
-                            </li>
-                            <li>Get live travel updates and assistance when you need it
-
-                            </li>
+                            <li>Compare flights, prices, and timings across multiple airlines</li>
+                            <li>Book flights easily with transparent pricing</li>
+                            <li>Enjoy a hassle-free booking experience without any hidden fees</li>
+                            <li>Access simple, real-time customer support and travel information</li>
                         </ul>
                     </div>
                 </Container>
             </section>
-            <section>
 
+            <section>
                 <Container>
                     <div className='m-5'>
                         <Row>
-                            <Col md={6}><img src="/assets/passenger/passenger-three.jpg" /></Col>
+                            <Col md={6}><img src="/assets/passenger/passenger-three.jpg" alt="Why Choose Us" /></Col>
                             <Col md={6}>
-                                <div className='m-5' >
+                                <div className='m-5'>
                                     <h2>Why Choose Us</h2>
-                                    <p>
-                                        Various reasons make us better than other platforms.
-
-                                    </p>
                                     <ul>
-                                        <li>
-                                            <strong>Best Fares:</strong>        We help you find the lowest fare for your train ride so you can focus on the fun parts of your trip.
-
-                                        </li>
-                                        <li>
-                                            <strong>100% Customer Satisfaction:</strong> Our sole motive is to provide you with the best services before, during, or after the journey.
-
-
-                                        </li>
-                                        <li>
-                                            <strong>Quick Bookings:</strong> You can book your train tickets without any hassle as our experts are available to help 24*7.
-
-
-                                        </li>
-                                        <li>
-                                            <strong>Completely Transparent:</strong> There will be no last-minute surprises, as we believe in complete transparency.
-                                        </li>
-                                        <li>
-                                            <strong>24*7 Assistance: </strong> We are available to help our customers throughout the day and night to ensure a pleasant experience.
-
-                                        </li>
+                                        <li><strong>Comprehensive Search:</strong> We scan hundreds of airlines to bring you the most competitive fares, route options, and schedules.</li>
+                                        <li><strong>Unbiased & Transparent:</strong> You never see us favor any airline as we are an independent third-party travel service provider. We show you the best options simply.</li>
+                                        <li><strong>Built for Real Travelers:</strong> Whether you are booking your first flight or are a seasoned traveler, our platform is designed for ease of use, flexibility, and savings.</li>
+                                        <li><strong>Simple Booking Process:</strong> With FlightsReservationsWeb, you can book your flight without any additional effort. Just call and confirm your booking.</li>
+                                        <li><strong>24/7 Support:</strong> We’re here round-the-clock to assist you before, during, or after your trip.</li>
                                     </ul>
-                                </div></Col>
+                                    <p>
+                                        FlightsReservationsWeb is your reliable travel partner whose sole motive is to make your journey an enjoyable one. Choose us as your booking partner, and keep all your worries away. So go ahead, call us to book your tickets, and double the joy of your trip.
+                                    </p>
+                                </div>
+                            </Col>
                         </Row>
                     </div>
                 </Container>
             </section>
-                <Features />
-            </Screen>
+
+            <Features />
+        </Screen>
     )
 }
 
-export default index 
+export default index
