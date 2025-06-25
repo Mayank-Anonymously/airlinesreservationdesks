@@ -54,9 +54,9 @@ At FlightsReservationsWeb, we are dedicated to providing you with the best fligh
 
             <Col md={4} lg={3} xl={3} className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><FaHome className="me-2" /> New York, NY 10012, US</p>
-              <p><FaEnvelope className="me-3" /> info@example.com</p>
-              <p><FaPhone className="me-3" /> + 01 234 567 88</p>
+              <p><FaHome className="me-2" />1050 Southwest 6th Avenue, Portland, OR, 97204, USA</p>
+              <p><FaEnvelope className="me-3" /> info@flightsreservationsweb.com</p>
+              <p><FaPhone className="me-3" /> <a className="text-decoration-none text-black" href="tel:+1(855) 236-1030">+1(855) 236-1030</a> </p>
               {/* <p><FaPrint className="me-3" /> + 01 234 567 89</p> */}
             </Col>
           </Row>
