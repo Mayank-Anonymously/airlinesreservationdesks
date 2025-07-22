@@ -26,7 +26,7 @@ const ExpediaModal = ({ show, onClose }) => {
       {show && (
         <div
           className="modal-backdrop fade show"
-          style={{ zIndex: 1040, backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+          style={{ zIndex: 9999, backgroundColor: "rgba(0, 0, 0, 1)" }}
           onClick={onClose}
         />
       )}
