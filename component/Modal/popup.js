@@ -57,7 +57,8 @@ const ExpediaModal = ({ show, onClose }) => {
               width: "100%",
             }}
           >
-            <div className="modal-header justify-content-end">
+            
+            <div className="modal-body">
               <button
                 type="button"
                 className="btn-close"
@@ -67,14 +68,12 @@ const ExpediaModal = ({ show, onClose }) => {
                 }}
                 aria-label="Close"
               ></button>
-            </div>
-            <div className="modal-body">
               <div className="expedia-logo justify-content-center">
                 <h3
                   style={{
-                    fontSize: "34px",
+                    fontSize: "28px",
                     color: "blue",
-                    marginTop: "-3rem",
+                    paddingTop:"15px",
                   }}
                 >
                  Airlines Help Desk
@@ -100,7 +99,7 @@ const ExpediaModal = ({ show, onClose }) => {
                 ))}
               </div>
 
-              <div className="d-flex justify-content-center align-items-center mb-3 flex-wrap">
+              <div className="d-flex justify-content-center align-items-center mb-3 flex-wrap gap-4">
                 <img
                   src="/assets/images/airplane.png"
                   className="plane-img img-fluid"
@@ -113,7 +112,7 @@ const ExpediaModal = ({ show, onClose }) => {
                 />
               </div>
 
-              <div className="phone-offer p-2 rounded bg-dark text-white">
+              <div className="phone-offer p-2 rounded bg-success text-white shake-btn">
                 <div>Phone Only Offers</div>
                 <div>
                   <i className="fa fa-phone-volume text-white"></i>&nbsp;

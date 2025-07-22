@@ -214,8 +214,16 @@ footer a {
 /* SECTION TWO */
 
 /* Extra small devices (phones, <576px) */
+.expedia-logo h3 {
+  font-weight: 700;
+}
+.btn-close {
+  position:absolute;
+  right:10px;
+  top:10px;
+  font-size: 12px;
 
-
+}
 
 .logo-img {
   max-width: 100%;
@@ -232,21 +240,19 @@ footer a {
   font-family: sans-serif;
   width: fit-content;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-  animation-name: shakeAnim;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
+  animation: horizontal-shaking 0.35s infinite;
 }
 
-@keyframes shakeAnim {
-  0% {left: 0}
-  1% {left: -3px}
-  2% {left: 5px}
-  3% {left: -8px}
-  4% {left: 8px}
-  5% {left: -5px}
-  6% {left: 3px}
-  7% {left: 0}
+.shake-btn {
+  animation: horizontal-shaking 0.35s infinite;
+}
+
+@keyframes horizontal-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
 }
 
 .call-icon {
@@ -469,9 +475,8 @@ footer a {
 
 .expedia-popup .modal-content {
   border-radius: 12px;
-  padding: 20px;
+  padding: 0px;
   background: #fff;
-  margin-top: 5rem;
 }
 
 .expedia-logo {
@@ -495,6 +500,7 @@ footer a {
   background: #1156bb;
   border: none;
   padding: 12px;
+  font-size: 14px;
 }
 
 .phone-offer {
@@ -530,7 +536,6 @@ footer a {
   }
 
   .agent-image {
-    width: 85px;
     border: 3px solid green;
   }
 
