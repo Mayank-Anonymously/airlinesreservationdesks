@@ -66,7 +66,7 @@ const ExpediaModal = ({ show, onClose }) => {
                   e.stopPropagation(); // Prevent call trigger
                   onClose();
                 }}
-                aria-label="Close"
+                aria-label="Close" data-bs-dismiss="modal"
               ></button>
               <div className="expedia-logo justify-content-center">
                 <h3
