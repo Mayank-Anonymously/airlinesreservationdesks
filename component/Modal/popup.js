@@ -99,7 +99,7 @@ const ExpediaModal = ({ show, onClose }) => {
                 ))}
               </div>
 
-              <div className="d-flex justify-content-center align-items-center mb-3 flex-wrap gap-4">
+              <div className="d-flex justify-content-center align-items-center mb-3 gap-4">
                 <img
                   src="/assets/images/airplane.png"
                   className="plane-img img-fluid"
