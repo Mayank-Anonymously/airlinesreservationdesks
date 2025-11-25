@@ -1,6 +1,7 @@
 import Breadcrumb from '@/component/common/Breadcrumb';
 import Screen from '@/component/common/Screen';
 import Seo from '@/component/common/Seo';
+import { useRouter } from 'next/navigation';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
@@ -84,9 +85,19 @@ const html = ` <p><span style="font-weight: 400;">In these &ldquo;Terms and Cond
 <p><span style="font-weight: 400;">support@AirlinesReservationdesks.com</span></p>`;
 
 const index = () => {
+	const router = useRouter();
 	return (
 		<Screen>
-			<Seo title='Terms and Conditions | AirlinesReservationdesks' />
+			<Seo
+				title='Terms and Conditions | AirlinesReservationdesks'
+				keywords={
+					'terms and conditions, booking policies, travel guidelines, airline rules, user agreement, Airline Reservation Desks, service terms'
+				}
+				description={
+					'Review the Terms and Conditions of Airline Reservation Desks to understand booking policies, service guidelines, user responsibilities, and important travel-related regulations.'
+				}
+				canonical={router.asPath}
+			/>
 			<Breadcrumb
 				main='Home'
 				page='Terms and Conditions'

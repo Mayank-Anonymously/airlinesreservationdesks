@@ -15,6 +15,7 @@ const Header = () => {
 						<img
 							src='/assets/logo/logo.png'
 							className='logo-img'
+							alt="logo-header"
 						/>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />

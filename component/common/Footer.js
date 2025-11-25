@@ -31,6 +31,7 @@ const Footer = () => {
 								<img
 									src='/assets/logo/logo.png'
 									className='logo-img'
+									alt='logo-footer'
 								/>
 							</h6>
 							<p>
@@ -46,7 +47,7 @@ const Footer = () => {
 							xl={2}
 							className='mx-auto mb-4'>
 							<h6 className='text-uppercase fw-bold mb-4'>
-								About FlighstReservationsWeb
+								About Airlinesreservationdesks
 							</h6>
 							<p>
 								<a
@@ -124,14 +125,14 @@ const Footer = () => {
 				style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
 				<h6 className='text-uppercase fw-bold mb-4'>IMPORTANT NOTICE</h6>
 				<p>
-					FlighstReservationsWeb is an airline service provider for booking
+					Airlinesreservationdesks is an airline service provider for booking
 					flights and not an airline. We act as a booking intermediary between
 					travelers and airlines, but are not liable for any delay,
 					cancellation, or change of flights. All content on this website is
 					subject to change without notice. Visitors should verify that they
 					have all the requirements to enter, including visas and passports.
-					FlighstReservationsWeb is not responsible for third-party services or
-					any incidents related to traveling. Use our platform responsibly.
+					Airlinesreservationdesks is not responsible for third-party services
+					or any incidents related to traveling. Use our platform responsibly.
 				</p>{' '}
 			</div>
 			<div

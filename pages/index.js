@@ -7,6 +7,7 @@ import Features from '@/component/Screens/Home/Features';
 import Testimnonials from '@/component/common/Testimnonials';
 import ExpediaModal from '@/component/Modal/popup';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const DATA = [
 	{
@@ -61,10 +62,19 @@ const DATA = [
 
 const Home = () => {
 	const [showModal, setShowModal] = useState(true);
-
+	const router = useRouter();
 	return (
 		<>
-			<Seo title='Home | AirlinesReservationdesks' />
+			<Seo
+				title='Airline Reservation Desks – Book Flight Tickets Online'
+				canonical={router.asPath}
+				description={
+					'Book flights easily and get reliable travel support anytime at Airline Reservation Desks. Manage reservations, changes, and customer assistance quickly.'
+				}
+				keywords={
+					'flight booking, airline reservations, travel support, flight changes, customer service, book flights online, travel assistance'
+				}
+			/>
 			<Screen>
 				<section className='home-section-one'>
 					<div id='home-engine' />

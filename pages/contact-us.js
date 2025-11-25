@@ -7,7 +7,15 @@ import { Col, Container, Row } from 'react-bootstrap';
 const index = () => {
 	return (
 		<Screen>
-			<Seo title='Contact Us | AirlinesReservationdesks' />
+			<Seo
+				title='Contact Us | AirlinesReservationdesks'
+				description={
+					'Get quick assistance for flight bookings, changes, cancellations, and customer support. Contact Airline Reservation Desks for reliable travel help anytime.'
+				}
+				keywords={
+					'contact airline support, flight assistance, travel help, customer service, booking support, Airline Reservation Desks, flight inquiries'
+				}
+			/>
 			<Breadcrumb
 				main='Home'
 				page='Contact Us'
@@ -30,7 +38,7 @@ const index = () => {
 												<i class='fa-solid fa-envelope h3 pe-2'></i>
 												<span class='h5'>Email</span>
 											</div>
-											<span>example@domain.com</span>
+											<span>support@airlinesreservationdesks.com</span>
 										</div>
 									</div>
 								</div>
@@ -44,7 +52,7 @@ const index = () => {
 												<i class='fa-solid fa-phone h3 pe-2'></i>
 												<span class='h5'>Phone</span>
 											</div>
-											<span>+0123456789, +9876543210</span>
+											<span> +1-855-706-2195</span>
 										</div>
 									</div>
 								</div>

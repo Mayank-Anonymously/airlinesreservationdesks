@@ -95,7 +95,15 @@ const html = `<p>&nbsp;</p>
 const index = () => {
 	return (
 		<Screen>
-			<Seo title='Privacy Policy | AirlinesReservationdesks' />
+			<Seo
+				keywords={
+					'privacy policy, data protection, user privacy, travel booking privacy, secure booking, Airline Reservation Desks, customer data safety'
+				}
+				title='Privacy Policy | AirlinesReservationdesks'
+				description={
+					'Read the Privacy Policy of Airline Reservation Desks to understand how your personal information is collected, used, and protected during flight bookings and travel assistance services.'
+				}
+			/>
 			<Breadcrumb
 				main='Home'
 				page='Privacy Policy'
