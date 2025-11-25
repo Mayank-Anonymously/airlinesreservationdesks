@@ -15,7 +15,7 @@ const Header = () => {
 						<img
 							src='/assets/logo/logo.png'
 							className='logo-img'
-							alt="logo-header"
+							alt='logo-header'
 						/>
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -44,7 +44,7 @@ const Header = () => {
 								Blog{' '}
 							</Link>
 							<Link
-								href='/contact-us'
+								href='/terms-and-conditions'
 								className='menu-link nav-link'>
 								{' '}
 								Terms and Conditions{' '}
