@@ -38,7 +38,7 @@ const Header = () => {
 								Contact{' '}
 							</Link>
 							<Link
-								href='/contact-us'
+								href='/blog'
 								className='menu-link nav-link'>
 								{' '}
 								Blog{' '}

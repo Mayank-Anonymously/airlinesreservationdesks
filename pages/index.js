@@ -173,10 +173,10 @@ const Home = () => {
 					<Container>
 						<h2 className='text-center'>Disclaimer</h2>
 						<p>
-							FlightReservationsWeb is an independent third-party website that
-							has no direct affiliation with any airline. We merely act as a
-							mediator between airlines and travelers. Bookings made with us are
-							subject to Terms and Conditions of both airlines and
+							AirlinesReservationDesks is an independent third-party website
+							that has no direct affiliation with any airline. We merely act as
+							a mediator between airlines and travelers. Bookings made with us
+							are subject to Terms and Conditions of both airlines and
 							www.AirlinesReservationdesks.com. By using our site, you agree to
 							follow all the mentioned Terms.
 						</p>
